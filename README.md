@@ -4,4 +4,5 @@ This is IP4RIoT Project Car Park System
 ![Initial commit](images/mu_image.png)
 ![Added stubs for classes](images/stubs-for-classes.png)
 ![Added stubs for classes1](images/stubs-for-classes1.png)
+![Added methods to the car park class](images/methods-to-car-park.png)
 
