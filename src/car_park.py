@@ -32,7 +32,10 @@ class CarPark:
 
     @property
     def available_bays(self):
-        return 0
+        if (self.capacity - len(self.plates)) >= 0:
+            return self.capacity - len(self.plates)
+        elif (self.capacity - len(self.plates)) < 0:
+            return 0
 
     def update_displays(self):
         # dictionary to send information to the displays

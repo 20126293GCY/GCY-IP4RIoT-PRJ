@@ -12,6 +12,9 @@ class Display:
         for key, value in data.items():
             print(f"{key}: {value}")
 
+        if "message" in data:
+            self.message= data["message"]
+
 
 
 
