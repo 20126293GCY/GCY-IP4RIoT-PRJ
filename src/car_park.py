@@ -8,4 +8,4 @@ class CarPark:
         self.displays = displays or []
 
     def __str__(self):
-        return f"Car park at {self.location}, with {self.capacity} bays."
+        return f"The car location {self.location}, with the capacity of {self.capacity}."
